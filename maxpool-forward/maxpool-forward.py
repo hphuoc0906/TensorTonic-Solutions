@@ -16,7 +16,5 @@ def maxpool_forward(X, pool_size, stride):
                     val = max(val, X[i][j])
             new_row.append(val)
         lst.append(new_row)
-    
-    return lst
 
     return lst
